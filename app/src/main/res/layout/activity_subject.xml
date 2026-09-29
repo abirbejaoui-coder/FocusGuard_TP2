@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SubjectActivity">
+
+    <TextView
+        android:id="@+id/txt_subject_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nouvelle session"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_choose_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choisis ta matière :"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:id="@+id/edt_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exemple : Programmation" />
+
+    <TextView
+        android:id="@+id/txt_choose_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Durée de la session :"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:id="@+id/edt_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exemple : 25 minutes"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bt_start_session"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Commencer la session"
+        android:layout_marginTop="30dp" />
+    <Button
+        android:id="@+id/bt_back_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retour"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>
